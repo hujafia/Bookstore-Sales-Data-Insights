@@ -34,3 +34,13 @@ The SQL script addresses several business questions, categorized by complexity:
 ## 🛠️ Technologies Used
 * **SQL** (PostgreSQL / Standard SQL)
 * **RDBMS** (Relational Database Management System)
+
+  ## 🛠️ How to Use This Project
+1. **Database Setup:** Run the provided SQL scripts to create the `Books`, `Customers`, and `Orders` tables.
+2. **Data Import:** Use the `COPY` command or the import wizard to load the CSV data into the tables.
+3. **Run Queries:** Execute the SQL scripts in your PostgreSQL tool (like pgAdmin) to see the analysis results.
+
+## 📊 Business Logic Implemented
+* **Stock Updates:** Logic to manage inventory levels after each purchase.
+* **Revenue Tracking:** Real-time calculation of sales to monitor business growth.
+* **Customer Segmentation:** Grouping customers based on their purchase history.
